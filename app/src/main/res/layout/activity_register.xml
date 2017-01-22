@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    android:id="@+id/register_lin"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/relative"
+        android:background="#e1dfce"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/colorWrite"
+            android:text="注    册"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWrite"
+        android:hint="请输入用户名"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorGreyfirst"
+        android:singleLine="true"
+        android:id="@+id/register_user_name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/register_user_pwd"
+        android:background="@color/colorWrite"
+        android:hint="请输入密码"
+        android:textColorHint="@color/colorGreyfirst"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/register_user_rpwd"
+        android:background="@color/colorWrite"
+        android:hint="请再次输入密码"
+        android:textColorHint="@color/colorGreyfirst"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/register_user_nick"
+        android:background="@color/colorWrite"
+        android:hint="请输入昵称"
+        android:textColorHint="@color/colorGreyfirst"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/register_user_real"
+        android:background="@color/colorWrite"
+        android:hint="请输入真实姓名"
+        android:textColorHint="@color/colorGreyfirst"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/register_user_address"
+        android:background="@color/colorWrite"
+        android:hint="请输入家庭住址"
+        android:textColorHint="@color/colorGreyfirst"
+        android:singleLine="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您可以长按屏幕任何位置登录或注册"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorBlackBEBEBE"
+        />
+</LinearLayout>
