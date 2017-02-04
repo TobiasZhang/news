@@ -11,5 +11,4 @@ public class MyAndroidTwo {
         Log.e("测试","测试111");
     }
 
-
 }
